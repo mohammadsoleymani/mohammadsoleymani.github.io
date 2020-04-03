@@ -14,6 +14,7 @@ fields:
 - type: datetime
   name: date
   label: date
-- type: text
-  name: categories
-  label: categories
+- name: categories
+  type: tag_list
+  default: []
+  label: Categories
